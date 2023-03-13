@@ -43,7 +43,7 @@
   padding: 0.25rem;
 }
 
-.cardImage {
+.image {
   object-fit: contain;
   height: 100%;
   display: block;
@@ -52,9 +52,16 @@
 
 .button {
   border: 1px solid var(--black);
-  color: var(--black);
+  background-color: var(--black);
+  color: var(--white);
   display: block;
-  padding: 0.25rem;
+  padding: 0.5rem;
   text-align: center;
   text-decoration: none;
+}
+
+.button:hover {
+  border: 1px solid var(--black);
+  background-color: var(--white);
+  color: var(--black);
 }

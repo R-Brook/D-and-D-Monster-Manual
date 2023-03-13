@@ -3,7 +3,7 @@ import styles from "./selectedFilter.module.css";
 
 export interface SelectedFilterProps {
   label: string;
-  selected_value: string;
+  selected_value: string | string[];
   onClick: (event: any) => void;
 }
 

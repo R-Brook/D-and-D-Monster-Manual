@@ -7,8 +7,6 @@ import { MONSTER_QUERY } from "apollo-graphql/queries/monster";
 import { MONSTER_INDEX_QUERY } from "apollo-graphql/queries/monsterByIndex";
 
 export default function MonsterPage({ monsterData }: MonsterProps) {
-  console.log(monsterData);
-
   return (
     <>
       <Head>

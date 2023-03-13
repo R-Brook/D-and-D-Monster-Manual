@@ -33,6 +33,7 @@ export const MonsterType = [
 
 export const MonsterAC = [
   "ALL",
+  5,
   6,
   7,
   8,
@@ -50,4 +51,5 @@ export const MonsterAC = [
   20,
   21,
   22,
+  25,
 ];

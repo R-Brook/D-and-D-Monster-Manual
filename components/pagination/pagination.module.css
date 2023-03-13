@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem 0;
+  padding: 0.25rem;
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+}
+
+.selected {
+  background-color: var(--grey);
+}
+
+.unselected {
+  background: none;
+}
+
+.button:hover {
+  background-color: var(--grey-light);
+}
+
+.chevron {
+  background-color: var(--black);
+  border: 1px solid;
+  border-color: var(--black);
+  margin: 0.5rem;
+  fill: var(--white);
+}
+
+.chevron:hover {
+  background-color: var(--white);
+  fill: var(--black);
+}

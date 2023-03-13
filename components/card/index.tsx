@@ -29,7 +29,7 @@ export const Card: FC<CardProps> = ({
         }
       >
         {image && image.length > 0 && (
-          <img src={image} alt={name} className={styles.cardImage} />
+          <img src={image} alt={name} className={styles.image} />
         )}
       </div>
 

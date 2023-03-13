@@ -8,6 +8,7 @@ font-family: 'Roboto Slab', serif;
 :root {
   --black: #000000;
   --grey: #d3d3d3;
+  --grey-light: #ebebeb;
   --white: #ffffff;
 }
 
